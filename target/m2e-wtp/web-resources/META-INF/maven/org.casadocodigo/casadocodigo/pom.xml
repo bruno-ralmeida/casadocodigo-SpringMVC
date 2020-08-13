@@ -32,7 +32,7 @@
 		<!-- </dependency> -->
 		<!-- <dependency> <groupId>net.sf.ehcache</groupId> <artifactId>ehcache-core</artifactId> 
 			<version>2.6.9</version> </dependency> -->
-		
+
 		<!-- EHCache uses slf4j for logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -96,11 +96,11 @@
 			<artifactId>hibernate-ehcache</artifactId>
 			<version>5.4.3.Final</version>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>mysql</groupId> -->
-<!-- 			<artifactId>mysql-connector-java</artifactId> -->
-<!-- 			<version>8.0.19</version> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>mysql</groupId> -->
+		<!-- <artifactId>mysql-connector-java</artifactId> -->
+		<!-- <version>8.0.19</version> -->
+		<!-- </dependency> -->
 		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 		<dependency>
 			<groupId>org.postgresql</groupId>

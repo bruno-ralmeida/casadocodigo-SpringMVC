@@ -9,6 +9,7 @@
 </head>
 <body>
 	<h1>Casa do Código</h1>
+	<c:out value="${x}"></c:out>
 	<form action="/casadocodigo/produtos" method="post">
 		<div>
 			<label>Título</label>
@@ -28,9 +29,12 @@
 				<input type="text" name="precos[${status.index}].valor" />
 				<input type="hidden" name="precos[${status.index}].tipo" value="${tipoPreco}"/>
 			</div>
+			
 		</c:forEach>
-
+		
+		
 		<button type="submit">Cadastrar</button>
+		
 	</form>
 </body>
 </html>

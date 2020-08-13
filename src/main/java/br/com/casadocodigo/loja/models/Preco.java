@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 import javax.persistence.Embeddable;
 
-@Embeddable
+@Embeddable //Indica que a classe está habilitada a compor uma entidade 
 public class Preco {
 
 	private BigDecimal valor;
